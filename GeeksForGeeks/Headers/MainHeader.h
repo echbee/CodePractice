@@ -2,18 +2,10 @@
 #define _MAIN_HEADER
 
 #include<iostream>
+#include "MyStack.h"
+#include "MyTree.h"
 
-struct TreeNode
-{
-	TreeNode *left,*right;
-	int key;
-
-	TreeNode(int k)
-	{
-		left=right=NULL;
-		key = k;
-	}
-};
+void InfixToPostfix();
 
 void PrintTree(TreeNode*);
 void RemoveHalfNodes(TreeNode *r, TreeNode *parent, TreeNode *root);

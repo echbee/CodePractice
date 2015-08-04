@@ -1,4 +1,4 @@
-#include "MainHeader.h"
+#include "../Headers/MainHeader.h"
 
 #include<cstdio>
 #include<iostream>

@@ -2,6 +2,7 @@
 
 int main()
 {
+	/*
 	TreeNode n1(1);
 	TreeNode n2(2);
 	TreeNode n3(3);
@@ -36,5 +37,11 @@ int main()
 		PrintTree(r);
 	else
 		PrintTree(newTreeRoot);
+
+	*/
+
+	//* --for prog13
+	 InfixToPostfix();
+	 //*/
 	return 0;
 }

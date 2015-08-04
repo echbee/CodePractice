@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "MainHeader.h"
+#include "../Headers/MainHeader.h"
 
 using namespace std;
 
