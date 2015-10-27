@@ -122,7 +122,20 @@ int main() {
 	//cout<<convert("PAYPALISHIRING",2)<<endl;
 
 	//addBinary
-	cout<<addBinary("100", "11")<<endl;
+	//cout<<addBinary("100", "11")<<endl;
+
+	/*//code for pascal2
+	 vector<int> vec = getRow(0);
+	 for(vector<int>::iterator i = vec.begin();i!=vec.end();i++)
+	 {
+		 cout<<*i<<" ";
+	 }
+	 cout<<endl;
+	 */
+
+	//* Code for LCP.cpp
+	  cout<<longestPalindrome("aaabaa");
+	 //*/
 
 	return 0;
 }

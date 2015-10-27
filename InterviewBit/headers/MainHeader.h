@@ -34,6 +34,10 @@ string convert(string A, int B);
 
 string addBinary(string A, string B);
 
+vector<int> getRow(int A);
 
+string longestPalindrome(string s);
+
+void rotate2d(vector<vector<int> > &arr);
 
 #endif

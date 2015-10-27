@@ -11,6 +11,7 @@ struct TreeNode
 	{
 		left=right=NULL;
 		key = k;
+
 	}
 };
 
