@@ -8,6 +8,9 @@
 /*
  *
  */
+#include <vector>
+
+using namespace std;
 
 void rotate2d(vector<vector<int> > &arr) {
     // Do not write main() function.

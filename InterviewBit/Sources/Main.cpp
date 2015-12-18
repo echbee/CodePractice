@@ -133,9 +133,17 @@ int main() {
 	 cout<<endl;
 	 */
 
-	//* Code for LCP.cpp
+	/* Code for LCP.cpp
 	  cout<<longestPalindrome("aaabaa");
-	 //*/
+	*/
+	/*cout<<colorful(23)<<endl;
+	*/
 
+	/*
+	vector<string> input = {"cat","dog","god","tca"};
+	vector<vector<int> > ans = anagrams(input);
+	*/
+
+	cout<<lengthOfLongestSubstring("dadbc");
 	return 0;
 }

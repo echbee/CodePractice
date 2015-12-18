@@ -40,4 +40,10 @@ string longestPalindrome(string s);
 
 void rotate2d(vector<vector<int> > &arr);
 
+int colorful(int A);
+
+vector<vector<int> > anagrams(const vector<string> &A);
+
+int lengthOfLongestSubstring(string A);
+
 #endif
