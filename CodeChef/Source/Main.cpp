@@ -4,6 +4,6 @@ using namespace std;
 
 int main()
 {
-	CBARG();
+	COMPILER();
 	return 0;
 }

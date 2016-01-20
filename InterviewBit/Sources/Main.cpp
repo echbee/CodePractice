@@ -144,6 +144,22 @@ int main() {
 	vector<vector<int> > ans = anagrams(input);
 	*/
 
-	cout<<lengthOfLongestSubstring("dadbc");
+//	cout<<lengthOfLongestSubstring("dadbc");
+
+	/*
+	vector<vector<int> > ans = generateMatrix(4);
+
+	for(int i=0;i<4;i++)
+	{
+		for(int j=0;j<4;j++)
+			cout<<ans[i][j]<<" ";
+
+		cout<<endl;
+	}*/
+
+	vector<int> A = {0,0,0};
+	vector<int> B = {0,0,0};
+
+	cout<<maxPoints(A,B)<<endl;
 	return 0;
 }

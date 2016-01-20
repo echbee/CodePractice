@@ -46,4 +46,8 @@ vector<vector<int> > anagrams(const vector<string> &A);
 
 int lengthOfLongestSubstring(string A);
 
+vector<vector<int> > generateMatrix(int A);
+
+int maxPoints(vector<int> &A, vector<int> &B);
+
 #endif
