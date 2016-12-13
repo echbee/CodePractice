@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D7487C61D9D702C001AEC3C /* 2d-array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7487BE1D9D7025001AEC3C /* 2d-array.cpp */; };
+		5D7487C71D9D702C001AEC3C /* cipher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7487BF1D9D7025001AEC3C /* cipher.cpp */; };
+		5D7487C81D9D702C001AEC3C /* flipping-bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7487C01D9D7025001AEC3C /* flipping-bits.cpp */; };
+		5D7487C91D9D702C001AEC3C /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7487C11D9D7025001AEC3C /* Main.cpp */; };
+		5DB254971D9832D300B5D0B7 /* addBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2547F1D9832D300B5D0B7 /* addBinary.cpp */; };
+		5DB254981D9832D300B5D0B7 /* Anagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254801D9832D300B5D0B7 /* Anagrams.cpp */; };
+		5DB254991D9832D300B5D0B7 /* ArrayLargestSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254811D9832D300B5D0B7 /* ArrayLargestSum.cpp */; };
+		5DB2549A1D9832D300B5D0B7 /* atoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254821D9832D300B5D0B7 /* atoi.cpp */; };
+		5DB2549B1D9832D300B5D0B7 /* Colorful.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254831D9832D300B5D0B7 /* Colorful.cpp */; };
+		5DB2549C1D9832D300B5D0B7 /* count_say.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254841D9832D300B5D0B7 /* count_say.cpp */; };
+		5DB2549D1D9832D300B5D0B7 /* countelements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254851D9832D300B5D0B7 /* countelements.cpp */; };
+		5DB2549E1D9832D300B5D0B7 /* intersectarr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254861D9832D300B5D0B7 /* intersectarr.cpp */; };
+		5DB2549F1D9832D300B5D0B7 /* LCP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254871D9832D300B5D0B7 /* LCP.cpp */; };
+		5DB254A01D9832D300B5D0B7 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254881D9832D300B5D0B7 /* Main.cpp */; };
+		5DB254A11D9832D300B5D0B7 /* pallindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254891D9832D300B5D0B7 /* pallindrome.cpp */; };
+		5DB254A21D9832D300B5D0B7 /* pascal2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2548A1D9832D300B5D0B7 /* pascal2.cpp */; };
+		5DB254A31D9832D300B5D0B7 /* points.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2548B1D9832D300B5D0B7 /* points.cpp */; };
+		5DB254A41D9832D300B5D0B7 /* prettyprint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2548C1D9832D300B5D0B7 /* prettyprint.cpp */; };
+		5DB254A51D9832D300B5D0B7 /* RepeatStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2548D1D9832D300B5D0B7 /* RepeatStr.cpp */; };
+		5DB254A61D9832D300B5D0B7 /* revint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2548E1D9832D300B5D0B7 /* revint.cpp */; };
+		5DB254A71D9832D300B5D0B7 /* rotate2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2548F1D9832D300B5D0B7 /* rotate2d.cpp */; };
+		5DB254A81D9832D300B5D0B7 /* rotatedarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254901D9832D300B5D0B7 /* rotatedarray.cpp */; };
+		5DB254A91D9832D300B5D0B7 /* search2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254911D9832D300B5D0B7 /* search2d.cpp */; };
+		5DB254AA1D9832D300B5D0B7 /* searchrotated.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254921D9832D300B5D0B7 /* searchrotated.cpp */; };
+		5DB254AB1D9832D300B5D0B7 /* spiral.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254931D9832D300B5D0B7 /* spiral.cpp */; };
+		5DB254AC1D9832D300B5D0B7 /* spiral2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254941D9832D300B5D0B7 /* spiral2.cpp */; };
+		5DB254AD1D9832D300B5D0B7 /* sqrt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254951D9832D300B5D0B7 /* sqrt.cpp */; };
+		5DB254AE1D9832D300B5D0B7 /* zigzag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254961D9832D300B5D0B7 /* zigzag.cpp */; };
+		5DB254B01D98337B00B5D0B7 /* first-missing-integer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB254AF1D98337B00B5D0B7 /* first-missing-integer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5D7487B41D9D700C001AEC3C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5DB2546F1D98325500B5D0B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D7487B61D9D700C001AEC3C /* HackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7487B81D9D700C001AEC3C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5D7487BD1D9D701C001AEC3C /* MainHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainHeader.h; path = HackerRank/Headers/MainHeader.h; sourceTree = "<group>"; };
+		5D7487BE1D9D7025001AEC3C /* 2d-array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "2d-array.cpp"; path = "HackerRank/Sources/2d-array.cpp"; sourceTree = "<group>"; };
+		5D7487BF1D9D7025001AEC3C /* cipher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cipher.cpp; path = HackerRank/Sources/cipher.cpp; sourceTree = "<group>"; };
+		5D7487C01D9D7025001AEC3C /* flipping-bits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "flipping-bits.cpp"; path = "HackerRank/Sources/flipping-bits.cpp"; sourceTree = "<group>"; };
+		5D7487C11D9D7025001AEC3C /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = HackerRank/Sources/Main.cpp; sourceTree = "<group>"; };
+		5DB254711D98325500B5D0B7 /* InterviewBit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InterviewBit; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB2547E1D9832C600B5D0B7 /* MainHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainHeader.h; path = InterviewBit/headers/MainHeader.h; sourceTree = "<group>"; };
+		5DB2547F1D9832D300B5D0B7 /* addBinary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = addBinary.cpp; path = InterviewBit/Sources/addBinary.cpp; sourceTree = "<group>"; };
+		5DB254801D9832D300B5D0B7 /* Anagrams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Anagrams.cpp; path = InterviewBit/Sources/Anagrams.cpp; sourceTree = "<group>"; };
+		5DB254811D9832D300B5D0B7 /* ArrayLargestSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArrayLargestSum.cpp; path = InterviewBit/Sources/ArrayLargestSum.cpp; sourceTree = "<group>"; };
+		5DB254821D9832D300B5D0B7 /* atoi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = atoi.cpp; path = InterviewBit/Sources/atoi.cpp; sourceTree = "<group>"; };
+		5DB254831D9832D300B5D0B7 /* Colorful.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Colorful.cpp; path = InterviewBit/Sources/Colorful.cpp; sourceTree = "<group>"; };
+		5DB254841D9832D300B5D0B7 /* count_say.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = count_say.cpp; path = InterviewBit/Sources/count_say.cpp; sourceTree = "<group>"; };
+		5DB254851D9832D300B5D0B7 /* countelements.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = countelements.cpp; path = InterviewBit/Sources/countelements.cpp; sourceTree = "<group>"; };
+		5DB254861D9832D300B5D0B7 /* intersectarr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = intersectarr.cpp; path = InterviewBit/Sources/intersectarr.cpp; sourceTree = "<group>"; };
+		5DB254871D9832D300B5D0B7 /* LCP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LCP.cpp; path = InterviewBit/Sources/LCP.cpp; sourceTree = "<group>"; };
+		5DB254881D9832D300B5D0B7 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = InterviewBit/Sources/Main.cpp; sourceTree = "<group>"; };
+		5DB254891D9832D300B5D0B7 /* pallindrome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pallindrome.cpp; path = InterviewBit/Sources/pallindrome.cpp; sourceTree = "<group>"; };
+		5DB2548A1D9832D300B5D0B7 /* pascal2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pascal2.cpp; path = InterviewBit/Sources/pascal2.cpp; sourceTree = "<group>"; };
+		5DB2548B1D9832D300B5D0B7 /* points.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = points.cpp; path = InterviewBit/Sources/points.cpp; sourceTree = "<group>"; };
+		5DB2548C1D9832D300B5D0B7 /* prettyprint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = prettyprint.cpp; path = InterviewBit/Sources/prettyprint.cpp; sourceTree = "<group>"; };
+		5DB2548D1D9832D300B5D0B7 /* RepeatStr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RepeatStr.cpp; path = InterviewBit/Sources/RepeatStr.cpp; sourceTree = "<group>"; };
+		5DB2548E1D9832D300B5D0B7 /* revint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = revint.cpp; path = InterviewBit/Sources/revint.cpp; sourceTree = "<group>"; };
+		5DB2548F1D9832D300B5D0B7 /* rotate2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rotate2d.cpp; path = InterviewBit/Sources/rotate2d.cpp; sourceTree = "<group>"; };
+		5DB254901D9832D300B5D0B7 /* rotatedarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rotatedarray.cpp; path = InterviewBit/Sources/rotatedarray.cpp; sourceTree = "<group>"; };
+		5DB254911D9832D300B5D0B7 /* search2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = search2d.cpp; path = InterviewBit/Sources/search2d.cpp; sourceTree = "<group>"; };
+		5DB254921D9832D300B5D0B7 /* searchrotated.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = searchrotated.cpp; path = InterviewBit/Sources/searchrotated.cpp; sourceTree = "<group>"; };
+		5DB254931D9832D300B5D0B7 /* spiral.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = spiral.cpp; path = InterviewBit/Sources/spiral.cpp; sourceTree = "<group>"; };
+		5DB254941D9832D300B5D0B7 /* spiral2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = spiral2.cpp; path = InterviewBit/Sources/spiral2.cpp; sourceTree = "<group>"; };
+		5DB254951D9832D300B5D0B7 /* sqrt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sqrt.cpp; path = InterviewBit/Sources/sqrt.cpp; sourceTree = "<group>"; };
+		5DB254961D9832D300B5D0B7 /* zigzag.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = zigzag.cpp; path = InterviewBit/Sources/zigzag.cpp; sourceTree = "<group>"; };
+		5DB254AF1D98337B00B5D0B7 /* first-missing-integer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "first-missing-integer.cpp"; path = "InterviewBit/Sources/first-missing-integer.cpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D7487B31D9D700C001AEC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB2546E1D98325500B5D0B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D7487AF1D9D6FC0001AEC3C /* HackerRank */ = {
+			isa = PBXGroup;
+			children = (
+				5D7487B11D9D6FD3001AEC3C /* sources */,
+				5D7487B01D9D6FC9001AEC3C /* headers */,
+			);
+			name = HackerRank;
+			sourceTree = "<group>";
+		};
+		5D7487B01D9D6FC9001AEC3C /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				5D7487BD1D9D701C001AEC3C /* MainHeader.h */,
+			);
+			name = headers;
+			sourceTree = "<group>";
+		};
+		5D7487B11D9D6FD3001AEC3C /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				5D7487BE1D9D7025001AEC3C /* 2d-array.cpp */,
+				5D7487BF1D9D7025001AEC3C /* cipher.cpp */,
+				5D7487C01D9D7025001AEC3C /* flipping-bits.cpp */,
+				5D7487C11D9D7025001AEC3C /* Main.cpp */,
+			);
+			name = sources;
+			sourceTree = "<group>";
+		};
+		5D7487B71D9D700C001AEC3C /* HackerRank */ = {
+			isa = PBXGroup;
+			children = (
+				5D7487B81D9D700C001AEC3C /* main.cpp */,
+			);
+			path = HackerRank;
+			sourceTree = "<group>";
+		};
+		5DB254681D98325500B5D0B7 = {
+			isa = PBXGroup;
+			children = (
+				5D7487AF1D9D6FC0001AEC3C /* HackerRank */,
+				5DB2547B1D98328600B5D0B7 /* InterviewBit */,
+				5D7487B71D9D700C001AEC3C /* HackerRank */,
+				5DB254721D98325500B5D0B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DB254721D98325500B5D0B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DB254711D98325500B5D0B7 /* InterviewBit */,
+				5D7487B61D9D700C001AEC3C /* HackerRank */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DB2547B1D98328600B5D0B7 /* InterviewBit */ = {
+			isa = PBXGroup;
+			children = (
+				5DB2547D1D9832BB00B5D0B7 /* sources */,
+				5DB2547C1D9832B300B5D0B7 /* headers */,
+			);
+			name = InterviewBit;
+			sourceTree = "<group>";
+		};
+		5DB2547C1D9832B300B5D0B7 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				5DB2547E1D9832C600B5D0B7 /* MainHeader.h */,
+			);
+			name = headers;
+			sourceTree = "<group>";
+		};
+		5DB2547D1D9832BB00B5D0B7 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				5DB2547F1D9832D300B5D0B7 /* addBinary.cpp */,
+				5DB254801D9832D300B5D0B7 /* Anagrams.cpp */,
+				5DB254811D9832D300B5D0B7 /* ArrayLargestSum.cpp */,
+				5DB254821D9832D300B5D0B7 /* atoi.cpp */,
+				5DB254831D9832D300B5D0B7 /* Colorful.cpp */,
+				5DB254841D9832D300B5D0B7 /* count_say.cpp */,
+				5DB254851D9832D300B5D0B7 /* countelements.cpp */,
+				5DB254861D9832D300B5D0B7 /* intersectarr.cpp */,
+				5DB254871D9832D300B5D0B7 /* LCP.cpp */,
+				5DB254881D9832D300B5D0B7 /* Main.cpp */,
+				5DB254891D9832D300B5D0B7 /* pallindrome.cpp */,
+				5DB2548A1D9832D300B5D0B7 /* pascal2.cpp */,
+				5DB2548B1D9832D300B5D0B7 /* points.cpp */,
+				5DB2548C1D9832D300B5D0B7 /* prettyprint.cpp */,
+				5DB2548D1D9832D300B5D0B7 /* RepeatStr.cpp */,
+				5DB2548E1D9832D300B5D0B7 /* revint.cpp */,
+				5DB2548F1D9832D300B5D0B7 /* rotate2d.cpp */,
+				5DB254901D9832D300B5D0B7 /* rotatedarray.cpp */,
+				5DB254911D9832D300B5D0B7 /* search2d.cpp */,
+				5DB254921D9832D300B5D0B7 /* searchrotated.cpp */,
+				5DB254931D9832D300B5D0B7 /* spiral.cpp */,
+				5DB254941D9832D300B5D0B7 /* spiral2.cpp */,
+				5DB254951D9832D300B5D0B7 /* sqrt.cpp */,
+				5DB254961D9832D300B5D0B7 /* zigzag.cpp */,
+				5DB254AF1D98337B00B5D0B7 /* first-missing-integer.cpp */,
+			);
+			name = sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D7487B51D9D700C001AEC3C /* HackerRank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D7487BA1D9D700C001AEC3C /* Build configuration list for PBXNativeTarget "HackerRank" */;
+			buildPhases = (
+				5D7487B21D9D700C001AEC3C /* Sources */,
+				5D7487B31D9D700C001AEC3C /* Frameworks */,
+				5D7487B41D9D700C001AEC3C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerRank;
+			productName = HackerRank;
+			productReference = 5D7487B61D9D700C001AEC3C /* HackerRank */;
+			productType = "com.apple.product-type.tool";
+		};
+		5DB254701D98325500B5D0B7 /* InterviewBit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB254781D98325500B5D0B7 /* Build configuration list for PBXNativeTarget "InterviewBit" */;
+			buildPhases = (
+				5DB2546D1D98325500B5D0B7 /* Sources */,
+				5DB2546E1D98325500B5D0B7 /* Frameworks */,
+				5DB2546F1D98325500B5D0B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InterviewBit;
+			productName = codePractice;
+			productReference = 5DB254711D98325500B5D0B7 /* InterviewBit */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DB254691D98325500B5D0B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = echbee;
+				TargetAttributes = {
+					5D7487B51D9D700C001AEC3C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5DB254701D98325500B5D0B7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5DB2546C1D98325500B5D0B7 /* Build configuration list for PBXProject "codePractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5DB254681D98325500B5D0B7;
+			productRefGroup = 5DB254721D98325500B5D0B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DB254701D98325500B5D0B7 /* InterviewBit */,
+				5D7487B51D9D700C001AEC3C /* HackerRank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D7487B21D9D700C001AEC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7487C71D9D702C001AEC3C /* cipher.cpp in Sources */,
+				5D7487C81D9D702C001AEC3C /* flipping-bits.cpp in Sources */,
+				5D7487C61D9D702C001AEC3C /* 2d-array.cpp in Sources */,
+				5D7487C91D9D702C001AEC3C /* Main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB2546D1D98325500B5D0B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB254991D9832D300B5D0B7 /* ArrayLargestSum.cpp in Sources */,
+				5DB254A91D9832D300B5D0B7 /* search2d.cpp in Sources */,
+				5DB254A11D9832D300B5D0B7 /* pallindrome.cpp in Sources */,
+				5DB254AB1D9832D300B5D0B7 /* spiral.cpp in Sources */,
+				5DB254AA1D9832D300B5D0B7 /* searchrotated.cpp in Sources */,
+				5DB254971D9832D300B5D0B7 /* addBinary.cpp in Sources */,
+				5DB254A61D9832D300B5D0B7 /* revint.cpp in Sources */,
+				5DB2549B1D9832D300B5D0B7 /* Colorful.cpp in Sources */,
+				5DB2549F1D9832D300B5D0B7 /* LCP.cpp in Sources */,
+				5DB254A41D9832D300B5D0B7 /* prettyprint.cpp in Sources */,
+				5DB254A01D9832D300B5D0B7 /* Main.cpp in Sources */,
+				5DB254AC1D9832D300B5D0B7 /* spiral2.cpp in Sources */,
+				5DB2549C1D9832D300B5D0B7 /* count_say.cpp in Sources */,
+				5DB2549A1D9832D300B5D0B7 /* atoi.cpp in Sources */,
+				5DB254981D9832D300B5D0B7 /* Anagrams.cpp in Sources */,
+				5DB254A81D9832D300B5D0B7 /* rotatedarray.cpp in Sources */,
+				5DB2549D1D9832D300B5D0B7 /* countelements.cpp in Sources */,
+				5DB254A71D9832D300B5D0B7 /* rotate2d.cpp in Sources */,
+				5DB254A21D9832D300B5D0B7 /* pascal2.cpp in Sources */,
+				5DB254AD1D9832D300B5D0B7 /* sqrt.cpp in Sources */,
+				5DB2549E1D9832D300B5D0B7 /* intersectarr.cpp in Sources */,
+				5DB254B01D98337B00B5D0B7 /* first-missing-integer.cpp in Sources */,
+				5DB254A51D9832D300B5D0B7 /* RepeatStr.cpp in Sources */,
+				5DB254A31D9832D300B5D0B7 /* points.cpp in Sources */,
+				5DB254AE1D9832D300B5D0B7 /* zigzag.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5D7487BB1D9D700C001AEC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D7487BC1D9D700C001AEC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5DB254761D98325500B5D0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5DB254771D98325500B5D0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5DB254791D98325500B5D0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DB2547A1D98325500B5D0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D7487BA1D9D700C001AEC3C /* Build configuration list for PBXNativeTarget "HackerRank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7487BB1D9D700C001AEC3C /* Debug */,
+				5D7487BC1D9D700C001AEC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DB2546C1D98325500B5D0B7 /* Build configuration list for PBXProject "codePractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB254761D98325500B5D0B7 /* Debug */,
+				5DB254771D98325500B5D0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DB254781D98325500B5D0B7 /* Build configuration list for PBXNativeTarget "InterviewBit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB254791D98325500B5D0B7 /* Debug */,
+				5DB2547A1D98325500B5D0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DB254691D98325500B5D0B7 /* Project object */;
+}
