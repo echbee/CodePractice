@@ -24,4 +24,10 @@ void HelpLira();
 void YNOUTPUT();
 
 void COMPILER();
+
+void ZCO14003();
+
+void ZCO14001();
+
+void ZCO13003();
 #endif

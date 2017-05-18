@@ -4,6 +4,6 @@ using namespace std;
 
 int main()
 {
-	COMPILER();
+	ZCO13003();
 	return 0;
 }

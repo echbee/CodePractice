@@ -50,4 +50,6 @@ vector<vector<int> > generateMatrix(int A);
 
 int maxPoints(vector<int> &A, vector<int> &B);
 
+void setZeroes(vector<vector<int> > &A);
+
 #endif
