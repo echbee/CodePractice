@@ -13,24 +13,81 @@
 #include <queue>
 #include <list>
 #include <stack>
+#include <functional>
 
-struct tree_node
+struct Tree_Node
 {
     int data;
-    tree_node *left;
-    tree_node *right;
+    Tree_Node *left;
+    Tree_Node *right;
+    
+    Tree_Node(const int &d, Tree_Node *l,Tree_Node *r) : data{d}, left{l}, right{r}
+    {
+        
+    }
+    
+    void set_child(Tree_Node* leftNode,Tree_Node* rightNode)
+    {
+        this->left = leftNode;
+        this->right = rightNode;
+    }
 };
 
-tree_node* create_sample_tree();
+class BSTOperations
+{
+public:
+    
+    static Tree_Node* create_sample_BST();
+    
+    static Tree_Node* insertion(Tree_Node *root, const int &d);
+    static Tree_Node* deletion(Tree_Node *root, const int &d);
+    static Tree_Node* search(Tree_Node *root, const int &d);
+    
+    static Tree_Node* findMinimum(Tree_Node* root);
+    
+private:
+    
+};
 
-void preorder_iterative(tree_node *root);
+class BinaryTreeOperations
+{
+public:
 
-void insert_to_binary_tree(tree_node**,const int& data);
-
-std::list<std::list<int>> reversedLevelOrder(tree_node *root);
-int sizeOfBinaryTree(tree_node *root);
-bool hasPathSum(tree_node *root,int sum);
-
-void printRootToLeafPaths(tree_node *root, tree_node **arr, int len);
+    //constructors
+    static Tree_Node* create_sample_tree();
+    
+    static Tree_Node* createTreeFrom(int *inOrder,int start,int end, int *preOrder, int preOrderLen,int &preOrderIndex);
+    
+    //traversals
+    static void preorder_iterative(Tree_Node *root);
+    
+    static void inorder_iterative(Tree_Node *root);
+    
+    static void inorder(Tree_Node *root);
+    
+    static void levelOrder(Tree_Node *root);
+    
+    static std::list<std::list<int>> reversedLevelOrder(Tree_Node *root);
+    
+    static void postorder_iterative(Tree_Node *root);
+    
+    static void printRootToLeafPaths(Tree_Node *root);
+    
+    static void printRootToLeafPaths(Tree_Node *root, Tree_Node **arr, int len);
+    
+    static void insert_to_binary_tree(Tree_Node**,const int& data);
+    
+    
+    static int sizeOfBinaryTree(Tree_Node *root);
+    
+    static bool hasPathSum(Tree_Node *root,int sum);
+    
+    
+private:
+    
+    
+    static void postorder_iterative(Tree_Node *root, std::function<void (Tree_Node*, std::stack<Tree_Node*> &stk)> processingFn);
+    
+};
 
 #endif /* Trees_hpp */

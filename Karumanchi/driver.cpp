@@ -9,6 +9,8 @@
 #include <stdio.h>
 #include "LinkedList.hpp"
 #include "Trees.hpp"
+#include "Sorting.hpp"
+#include "Heaps.hpp"
 
 void SLLTester()
 {
@@ -48,30 +50,61 @@ void CLLTester()
 
 void treeTester()
 {
+    Tree_Node *root = BSTOperations::create_sample_BST();
     
-    tree_node *root = create_sample_tree();
+    BinaryTreeOperations::inorder(root);
+    cout<<endl;
+    root = BSTOperations::deletion(root, 14);
+    root = BSTOperations::deletion(root, 1);
     
-//    preorder_iterative(root);
-//    
-//    std::list<std::list<int>> result = reversedLevelOrder(root);
-//    
-//    for(auto &aList : result)
-//    {
-//        for(auto &data : aList)
-//        {
-//            std::cout<<data<<" ";
-//        }
-//        std::cout<<std::endl;
-//    }
-//    std::cout<<sizeOfBinaryTree(root);
+    BinaryTreeOperations::inorder(root);
     
-//    std::cout<<hasPathSum(root, 45)<<std::endl;
+}
+
+void heapTester()
+{
+    Heap myHeap(HeapType::MinHeap,1);
     
-    tree_node **arr = new tree_node*[50];
-    printRootToLeafPaths(root, arr, 0);
+    myHeap.insert(4);
+    myHeap.insert(8);
+    myHeap.insert(2);
+    myHeap.insert(1);
+    myHeap.insert(3);
+    
+    myHeap.print();
+    
+    deque<int> sorted = myHeap.heapSort();
+    
+    for(auto it = sorted.begin();it!=sorted.end();++it)
+        cout<<*it<<" ";
+    cout<<endl;
+}
+
+void sortingTester()
+{
+    
+    vector<int> vec = {4,5,2,1,3};
+    
+    //>>bubbleSort
+    //BubbleSort(vec);
+    //<<BubbleSort
+    
+    //>>selectionSort
+    //SelectionSort(vec);
+    //<<selectionSort
+    
+    //>>QuickSort
+    QuickSort(vec, vec.begin(), vec.end());
+    //<<QuickSort
+    
+    for(auto &elem : vec)
+    {
+        cout<<elem<<" ";
+    }
+    cout<<endl;
 }
 
 int main()
 {
-    treeTester();
+    heapTester();
 }
